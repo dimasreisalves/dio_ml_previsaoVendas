@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/dimas/OneDrive/%C3%81rea%20de%20Trabalho/agent/dio-agent/mlruns/621254511551467348/40920d3e1e274f708dc1ffbbdb334503/artifacts
+end_time: 1794152993951
+entry_point_name: ''
+experiment_id: '621254511551467348'
+lifecycle_stage: active
+run_id: 40920d3e1e274f708dc1ffbbdb334503
+run_name: Random_Forest_Regressor
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1794152985443
+status: 3
+tags: []
+user_id: dimas

@@ -1,160 +1,43 @@
-# 🤖 DIO Agent
+# 🎮 Copiloto de Vendas com IA - Loja Gamer
 
-> Seu mentor de Inteligência Artificial para aprender mais e melhor na [DIO](https://dio.me).
+![Capa do Projeto](https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=2070&auto=format&fit=crop)
 
-O **DIO Agent** é um agente de IA que acompanha você na sua jornada de estudos. Ele conhece as experiências da DIO (Bootcamps, Formações, Cursos, Desafios e muito mais) e ajuda você a estudar com mais clareza, destravar desafios e entender qualquer conceito.
+> Projeto desenvolvido como desafio prático para aprofundamento em **Engenharia de Prompt** e aplicação de IA no atendimento ao cliente.
 
-E você não precisa instalar nada complicado. Em **3 passos simples**, o seu mentor de IA estará pronto para usar.
+## 💻 Sobre o Projeto
 
----
+Este projeto consiste na criação de um **Copiloto de Vendas com IA** especializado em Hardware para uma Loja Gamer. O objetivo não é substituir o vendedor humano, mas atuar como um assistente rápido, consultivo e focado em converter vendas através de um atendimento empático e técnico.
 
-## ✨ Antes de começar: dois conceitos rápidos
+Através de técnicas de Prompt Engineering, a IA foi calibrada para entender as dores do cliente, oferecer soluções baseadas no orçamento e lidar com objeções, sempre utilizando uma linguagem amigável e antenada ao mercado gamer.
 
-Para usar o DIO Agent, basta entender duas palavras. As duas estão no [Glossário completo](docs/glossary.md), mas aqui vai a versão rápida:
+## 🧠 Como Funciona
 
-- 🧠 **Agente de IA:** um chatbot comum responde perguntas, como um buscador mais esperto. Um *agente* de IA vai além: ele lê, planeja e executa passos para te ajudar a alcançar um objetivo. É a diferença entre alguém que te explica o caminho e alguém que caminha junto com você. O DIO Agent é um agente desse tipo: um tutor particular que acompanha a sua evolução.
+O núcleo do projeto é um **Prompt de Sistema** estruturado em quatro pilares fundamentais:
 
-- 🖥️ **Harness:** é o programa onde a conversa com o agente acontece. Vale a comparação: o agente é o professor, e o harness é a sala de aula. O mesmo professor pode dar aula em salas diferentes. Por isso o DIO Agent funciona em qualquer harness: você escolhe a "sala" no Passo 1, e o seu mentor continua o mesmo.
+1. **Contexto e Persona:** Define o assistente como um especialista de alta performance.
+2. **Objetivo:** Foca no entendimento da dor do cliente antes de empurrar produtos.
+3. **Regras e Restrições:** Limita o uso excessivo de gírias, proíbe comunicação abusiva e orienta uma abordagem de vendas consultiva (sem pressão).
+4. **Formato de Saída:** Garante legibilidade (uso de bullet points) e retenção (terminando mensagens sempre com perguntas).
 
-Pronto. Com isso já dá para começar.
+## 🚀 Como Usar
 
----
+Para testar o Copiloto na prática:
 
-## 🎯 O que o DIO Agent faz por você
+1. Acesse uma IA generativa de sua preferência (ex: [Google Gemini](https://gemini.google.com/), ChatGPT ou Claude).
+2. Copie o conteúdo completo do arquivo [`prompt-copiloto-gamer.md`](prompt-copiloto-gamer.md) e cole no chat para inicializar a persona.
+3. Comece a interagir como se fosse um cliente buscando peças para PC ou com dúvidas sobre hardware.
 
-| Você precisa de... | O DIO Agent... |
-|--------------------|----------------|
-| Saber por onde começar | Monta um plano de estudos no seu ritmo |
-| Destravar um desafio | Te guia até a solução, sem entregar a resposta pronta |
-| Entender um conceito | Explica de forma simples, com analogias e exemplos |
+### 🧪 Exemplo de Uso (Teste de Estresse)
 
-Ele conhece os formatos da DIO: Bootcamps, Formações, Acelerações, Cursos, English4Tech, Desafios de Código, Desafios de Projeto, Desafios Criativos, Lives e Mentorias. Assim, as recomendações sempre apontam para algo que você já tem na plataforma.
+**Entrada do Usuário:**
+> *"Oi, eu não entendo nada de computador. Meu filho quer um PC Gamer pra jogar Roblox e Minecraft com mods. Tenho 4 mil reais. O que eu compro? Pode ser um notebook comum?"*
 
----
+**Comportamento Esperado da IA:**
+A IA deve acolher a dúvida da mãe/pai, explicar de forma leiga a diferença entre um notebook comum (que pode travar) e um PC Gamer de entrada, listar as peças ideais dentro dos 4 mil reais usando tópicos, e finalizar com uma pergunta para manter o cliente engajado.
 
-## 🚀 Comece em 3 passos
+## 👨‍💻 Autor
 
-### 1️⃣ Instale um Harness
-
-O harness é o programa que dá vida ao agente. Recomendamos o **Google Antigravity**, que tem limites de uso mais generosos para quem está começando. Mas qualquer harness moderno funciona.
-
-| Harness | Documentação oficial |
-|---------|----------------------|
-| Google Antigravity (recomendado) | https://antigravity.google/docs |
-| Claude Code | https://docs.claude.com/en/docs/claude-code |
-| Codex | https://developers.openai.com/codex |
-| OpenCode | https://opencode.ai/docs |
-| Hermes | https://hermes-agent.nousresearch.com/docs |
-
-Escolha um e siga o passo a passo da documentação oficial dele. Cada documentação já traz tudo certinho para o seu sistema, então a instalação é tranquila.
-
-### 2️⃣ Configure o DIO Agent
-
-Agora você vai baixar este repositório para o seu computador. Escolha a forma mais simples para você:
-
-**Opção A: com Git** (se você já usa Git)
-
-```bash
-git clone https://github.com/digitalinnovationone/dio-agent.git
-```
-
-**Opção B: baixando o .zip** (se você não usa Git)
-
-Na página do repositório no GitHub, clique no botão verde **Code** e depois em **Download ZIP**. Em seguida, extraia a pasta em um lugar fácil de encontrar.
-
-Com o repositório baixado, abra a pasta `dio-agent` no harness que você instalou. Cada harness tem o seu jeito de abrir uma pasta de projeto, e a documentação dele mostra como fazer isso.
-
-E é só isso! O harness lê automaticamente o arquivo `AGENTS.md` e o agente já sabe quem é: o seu mentor de estudos da DIO.
-
-> 🔄 **Fique de olho nas atualizações.** Não importa se você usou o Git ou o .zip: o repositório do DIO Agent evolui com o tempo. De tempos em tempos, vale voltar aqui e pegar a versão mais recente. Quem usou Git pode rodar `git pull` (ou pedir pro próprio DIO Agent rodar); quem baixou o .zip pode baixar de novo. Assim o seu mentor está sempre com o melhor que a gente tem a oferecer.
-
-### 3️⃣ Hands On!
-
-Agora é só conversar. Você pode falar naturalmente, com as suas palavras. Mas, principalmente nas primeiras vezes, vale usar um modelo de prompt pronto: é só copiar e preencher os campos entre colchetes. Quanto mais contexto você dá, melhor o agente ajuda.
-
-**🗺️ Plano de estudos**
-
-```
-Quero montar um plano de estudos (se possível, com materiais complementares).
-- Meu objetivo: [ex: aprender mais sobre IA, ser dev back-end, concluir um bootcamp]
-- Experiência ou carreira da DIO: [URL ou nome do bootcamp/formação, ou de uma carreira da DIO]
-- Meu nível hoje: [iniciante, intermediário, avançado]
-- Tempo disponível: [ex: 1 hora por dia, de segunda a sexta]
-```
-
-**🔓 Destravar desafio**
-
-```
-Estou travado em um Desafio de [Código, Projeto ou Criativo] da DIO.
-- O que o desafio pede: [cole o enunciado ou descreva]
-- Onde eu travei: [explique o ponto da dificuldade]
-- Meu código atual: [cole aqui, se for Desafio de Código]
-- Link do repositório base: [cole aqui, se for Desafio de Projeto]
-Me ajuda a destravar sem dar a resposta pronta.
-```
-
-**💡 Explicar conceito**
-
-```
-Me explica o conceito de [ex: API, laço de repetição, herança].
-- Meu nível: [nunca vi, já ouvi falar, quero aprofundar]
-- Onde apareceu: [ex: no curso X de um bootcamp] (opcional)
-```
-
-Não precisa de comando especial nem de formato perfeito: o agente conduz a conversa a partir daí e pede mais detalhes se precisar.
+Desenvolvido passo a passo durante a jornada de aprendizado em Inteligência Artificial.
 
 ---
-
-## 🧩 As skills do agente
-
-Uma **skill** é uma habilidade do agente, descrita em um guia passo a passo. O DIO Agent vem com três:
-
-| Skill | Para que serve |
-|-------|----------------|
-| [Plano de estudos](skills/study-plan/SKILL.md) | Organiza o que estudar, em que ordem e em quanto tempo |
-| [Destravar desafio](skills/unblock-challenge/SKILL.md) | Conduz você até a solução de um desafio, sem dar a resposta pronta |
-| [Explicar conceito](skills/explain-concept/SKILL.md) | Explica conceitos de forma didática, com analogias e exemplos |
-
-Você não precisa "chamar" uma skill. O agente percebe o que você precisa e usa a skill certa sozinho.
-
----
-
-## 🗂️ Estrutura do repositório
-
-```
-dio-agent/
-├── README.md                        Este guia
-├── AGENTS.md                        Definição do agente (lida por qualquer harness)
-├── CLAUDE.md                        Atalho para o Claude Code
-│
-├── agent/
-│   ├── persona.md                   A personalidade e o tom do agente
-│   └── knowledge/
-│       ├── dio-platform.md          O que é a DIO
-│       └── learning-experiences.md  Os formatos de aprendizado da DIO
-│
-├── skills/
-│   ├── README.md                    O que são skills
-│   ├── study-plan/                  Skill: plano de estudos
-│   ├── unblock-challenge/           Skill: destravar desafio
-│   └── explain-concept/             Skill: explicar conceito
-│
-└── docs/
-    └── glossary.md                  Glossário de termos
-```
-
-> 🔍 **Por que funciona em qualquer harness?** O coração do projeto é o arquivo `AGENTS.md`, um padrão aberto que harnesses modernos sabem ler. O `CLAUDE.md` apenas aponta para ele, então você pode usar o harness que preferir.
-
----
-
-## 📖 Glossário rápido
-
-Termos como *agente*, *harness*, *skill* e *prompt* estão explicados com analogias simples no **[Glossário completo](docs/glossary.md)**. Se algum termo soar estranho, comece por lá.
-
----
-
-## 💬 Sobre este projeto
-
-O DIO Agent foi criado para acompanhar você desde o início dos Bootcamps e Formações da DIO. A ideia é simples: aprender na era da IA fica mais fácil quando você tem um mentor disponível a qualquer hora.
-
-Bons estudos, e vem com a gente. 🚀
+Feito com 🩵 e Inteligência Artificial.

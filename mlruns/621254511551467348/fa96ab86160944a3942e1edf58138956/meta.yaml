@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/dimas/OneDrive/%C3%81rea%20de%20Trabalho/agent/dio-agent/mlruns/621254511551467348/fa96ab86160944a3942e1edf58138956/artifacts
+end_time: 1794152985426
+entry_point_name: ''
+experiment_id: '621254511551467348'
+lifecycle_stage: active
+run_id: fa96ab86160944a3942e1edf58138956
+run_name: Regressao_Linear
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1794152965739
+status: 3
+tags: []
+user_id: dimas
